@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cycle</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        header{
+            width: 100%;
+            height:100vh;
+        }
+        nav{
+            width:100%;
+            height: 20Vh;
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 70px;
+        }
+        .menu a{
+            text-decoration: none;
+            color:azure;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+            transition: 0.4s;
+
+        }
+        .menu a:last-child{
+            background: red;
+            color:whitesmoke;
+            border-radius: 8px;
+        }
+        .menu a:hover{
+            background: turquoise;
+            color:white;
+            border-radius: 8px;
+
+        }
+        body{
+            background-image: url("ddd.jpg");
+            justify-content: center;
+            background-position: center;
+            
+            background-size: cover;
+           
+            
+        }
+        .logo{
+            color:whitesmoke;
+            font-size: 3em;
+            text-shadow: greenyellow;
+         
+
+        }
+        .text{
+            font-family: sans-serif;
+            position: absolute;
+            top:40%;
+            left:5%;
+
+        }
+        .text h1{
+            font-size: 3em;
+            color: whitesmoke;
+        }
+
+        .text h2{
+            font-size: 2em;
+            line-height:2em;
+            color:whitesmoke
+        }
+        .text h1 span{
+            color:tomato;
+        }
+        .text a{
+            text-decoration: none;
+            color:white;
+            background:red;
+            padding:10px 20px;
+            border-radius: 8px;
+        }
+        .text a:hover{
+            
+            transition:0.4s;
+            background:turquoise;
+        }
+        footer{
+           
+            background-color: rgba(10, 10, 10, 0.8);
+            padding: 50px;
+            margin-top:250px ;
+            display:flex;
+            justify-content:space-between;
+            color:white;
+            text-decoration: none;
+        }
+        .f-link ul li a{
+            color:white;
+            line-height: 2px;
+
+
+        }
+        .f-services ul li a{
+            color:white;
+        }
+        .f-contact ul li a{
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MT-rider
+               
+            </div>
+
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Services</a>
+                <a href="#">contact</a>
+                <a href="#">order now</a>
+                
+            </div>
+        </nav>
+
+        <div class="text">
+            <h1>Best Quality <span>Mountain Bike</span></h1>
+            <h2>At Very affordable Prices</h2>
+            <br>
+            <a href="#">Book Now</a>
+        </div>
+    </header>
+    <footer class="footer">
+        <!--The link section-->
+       
+       <div class="f-link">
+        <h3>Links</h3>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+       </div>
+       <!--The services section-->
+       <div class="f-services">
+        <h3>Services</h3>
+        <ul>
+            <li><a href="#">Shore Excursion</a></li>
+            <li><a href="#">Transfers</a></li>
+            <li><a href="#">Transfers-Tours</a></li>
+        </ul>
+       </div>
+       <!--The contact section-->
+       <div class="f-contact">
+        <h3>Head Quarters</h3>
+        <ul>
+            <li><a href="#">Delhi</a></li>
+            <li><a href="#">Mumbai</a></li>
+            <li><a href="#">Benglore</a></li>
+            <li><a href="#">Patna</a></li>
+            <li><a href="#">Ranchi</a></li>
+            <li><a href="#">Prayagraj</a></li>
+        </ul>
+       </div>
+        </footer>
+    
+
+    
+</body>
+</html>
